@@ -50,4 +50,4 @@ names(meanStdDf) <- gsub("BodyBody", "Body", names(meanStdDf))
 summaryDf <- aggregate(. ~ Subject + Activity, meanStdDf, mean)
 
 ##Write the data to a file in the working directory
-write.table(summaryDf, file = "cleandata.txt", row.name=TRUE)
+write.table(summaryDf, file = "cleandata.txt", row.name=FALSE)
