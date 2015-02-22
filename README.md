@@ -10,7 +10,7 @@ This project is an exercise in obtaining and cleaning complex datasets.
 - Place the downloaded zip file, named **getdata-projectfiles-UCI HAR Dataset.zip**, in your working directory for R
 - Place the **run_analysis.R** file in your working directory for R
 
-###Runnung The Script###
+###Running The Script###
 Cope the contents of the **run_analysis.R** file and paste them on the R console
 
 ###Output###
